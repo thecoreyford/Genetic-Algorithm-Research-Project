@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="SsLk2r" name="GAProject - 16011668" displaySplashScreen="1"
+              reportAppUsage="1" splashScreenColour="Dark" projectType="guiapp"
+              version="1.0.0" bundleIdentifier="com.yourcompany.GAProject16011668"
+              includeBinaryInAppConfig="1" cppLanguageStandard="11" companyCopyright=""
+              jucerVersion="5.3.1">
+  <MAINGROUP id="v7reJ2" name="GAProject - 16011668">
+    <GROUP id="{78FD4F9F-C568-989B-A824-56F8E9FAE7EA}" name="Source">
+      <GROUP id="{C0AAE80A-E657-E353-018F-360CC0220B7D}" name="Data Logging">
+        <FILE id="CUxY8j" name="DataLogging.h" compile="1" resource="0" file="Source/DataLogging.h"/>
+      </GROUP>
+      <GROUP id="{87E05785-BFAC-FFBA-C631-D139F8A8F8EA}" name="Genetic Algorithm">
+        <FILE id="teN2nr" name="GeneticAlgorithm.cpp" compile="1" resource="0"
+              file="Source/GeneticAlgorithm.cpp"/>
+        <FILE id="dRRwT6" name="GeneticAlgorithm.h" compile="0" resource="0"
+              file="Source/GeneticAlgorithm.h"/>
+        <FILE id="Jnt3mx" name="MIDISequencePlayback.cpp" compile="1" resource="0"
+              file="Source/MIDISequencePlayback.cpp"/>
+        <FILE id="Qz5A9f" name="MIDISequencePlayback.h" compile="0" resource="0"
+              file="Source/MIDISequencePlayback.h"/>
+      </GROUP>
+      <GROUP id="{7584C4A2-8E27-E4EF-C9CB-0D661A1E7C32}" name="Screens">
+        <FILE id="kghPW7" name="ExplanationScreen.h" compile="0" resource="0"
+              file="Source/ExplanationScreen.h"/>
+        <FILE id="r73uJX" name="GAScreen.h" compile="0" resource="0" file="Source/GAScreen.h"/>
+        <FILE id="N6I3rQ" name="PlaybackScreen.h" compile="0" resource="0"
+              file="Source/PlaybackScreen.h"/>
+      </GROUP>
+      <GROUP id="{417265F0-C64E-9633-AE76-0952DB81E112}" name="MIDI Creation">
+        <FILE id="pBTCnA" name="MIDIBar.cpp" compile="1" resource="0" file="Source/MIDIBar.cpp"/>
+        <FILE id="d1AWcQ" name="MIDIBar.h" compile="0" resource="0" file="Source/MIDIBar.h"/>
+        <FILE id="HxlR0u" name="MIDIManipulator.cpp" compile="1" resource="0"
+              file="Source/MIDIManipulator.cpp"/>
+        <FILE id="x04Jo3" name="MIDIManipulator.h" compile="0" resource="0"
+              file="Source/MIDIManipulator.h"/>
+      </GROUP>
+      <FILE id="iaFhsr" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="tmaPAS" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="Rp3lwi" name="CoreysComponents.h" compile="0" resource="0"
+            file="Source/CoreysComponents.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" enablePluginBinaryCopyStep="1" isDebug="1" optimisation="1"
+                       linkTimeOptimisation="0" targetName="GAProject - 16011668"/>
+        <CONFIGURATION name="Release" enablePluginBinaryCopyStep="1" isDebug="0" optimisation="3"
+                       linkTimeOptimisation="1" targetName="GAProject - 16011668"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
