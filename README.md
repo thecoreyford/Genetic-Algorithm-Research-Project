@@ -8,6 +8,8 @@ The code for a music generating genetic algorithm project, aiming to determine i
 
 This is part of a 2nd Year university module, towards a BSc in Music Technology at the University of The West of England (UWE).
 
+**Employers???** if you would like a copy of the report let me know (fordc004@googlemail.com)!
+
 ### Features
 This project demonstrates:
 * Genetic Algorithms
