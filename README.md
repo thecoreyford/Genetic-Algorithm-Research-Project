@@ -11,7 +11,7 @@ This was part of a 2nd Year university module, towards a BSc in Music Technology
 ### Features
 This project demonstrates:
 * Genetic Algorithms
-* JUCE (Midi, timers, data structers, gui, etc. etc. etc...)
+* JUCE (Midi, timers, data structs, gui, etc. etc. etc...)
 * Basic Class Design 
 
 ... among other things.
