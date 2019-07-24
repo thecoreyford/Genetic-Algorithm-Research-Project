@@ -15,6 +15,3 @@ This project demonstrates:
 * Basic Class Design 
 
 ... among other things.
-
-### Reference
-* Ford, CF. (2018), *The Fitness Function: Humans vs Computers in Music Generation*, Project [online]. BSc, University Of The West Of England. Available from [PUT REPOSITORY LINK HERE] [PUT THE DATA ACCESSED HERE]
